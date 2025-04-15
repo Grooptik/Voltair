@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Voltair</title>
+    </head>
+    <style>
+        p{text-align: center;}    
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+        }
+        ul{
+        list-style-type: none;
+  margin: 0;
+  padding: 0;
+    }
+    li {
+        display: inline;
+    }
+    </style>
+    <body>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="HowToPlay.html">How to play </a></li>
+            <li><a href="Library.html">Library</a></li>  
+        </ul>
+        <div style="padding:20px;margin-top:30px;background-color:#bee2e7;height:1500px;" >
+        
+        <h1> How To Play</h1>
+        <h2> Welcome to Flesh & Blood!</h2>
+        
+        <p>Click on an area of the card to find out what it means </p>
+      
+        <img src="WTR188.webp" usemap="#cardmap">
+
+        <map name="cardmap">
+            <area href="" coords="66,65,36" shape="circle" onclick="myFunction()">
+            <area href="main.html" coords="479,65,34" shape="circle" onclick="myFunction()">
+            <area href="main.html" coords="77,704,43" shape="circle" onclick="myFunction()">
+            <area href="main.html" coords="471,702,46" shape="circle"onclick="myFunction()">
+        </map>
+            <script>
+                function myFunction(){
+                    alert("You Clicked on a button");
+                }
+            </script>
+        </div>
+    </body>
