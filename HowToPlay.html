@@ -5,23 +5,23 @@
         <title>Voltair</title>
     </head>
     <style>
-        p{text-align: center;}    
+          
         img {
   display: block;
   margin-left: auto;
   margin-right: auto;
         }
-        ul{
-        list-style-type: none;
-  margin: 0;
-  padding: 0;
-    }
-    li {
-        display: inline;
-    }
+        
+   
     </style>
     <body>
-        <ul>
+        <ul style="ul{
+            list-style-type: none;
+      margin: 0;
+      padding: 0;
+        } li {
+            display: inline;
+        }">
             <li><a href="main.html">Home</a></li>
             <li><a href="HowToPlay.html">How to play </a></li>
             <li><a href="Library.html">Library</a></li>  
@@ -31,15 +31,46 @@
         <h1> How To Play</h1>
         <h2> Welcome to Flesh & Blood!</h2>
         
-        <p>Click on an area of the card to find out what it means </p>
+        <p style = "text-align: center;">  Click on an area of the card to find out what it means </p>
+        <h3> 1.The Big Picture: What's the Goal?</h3>
+        <p>You and your opponent are playing as powerful heroes, battling it out. The goal is simple: <strong>Reduce your opponent’s life total to zero before they do it to you. </strong> </p>
+
+        <h3> 2.Your Deck, What's in it?</h3>
+        <ul style="list-style-type:disc;">
+            <li><strong>1 Hero Card </strong>(your character)</li>
+            <li><strong>Weapons</strong>(for attacking)</li>
+            <li><strong>Equipment</strong> (gives defense and effects)</li>
+            <li><strong>60+ cards </strong> (attacks, defence abilities, etc)</li>
+        </ul>
+
+        <h3> 3.Turn Structure: What Do You Do on Your Turn?</h3>
+        <p>A turn in FAB as a few phases <br> 
+        <strong> Start of Turn <br></strong>
+        Draw back up to your hand size (usually 4 cards unless affected). <br> 
+        <strong>Action Phase</strong><br>
+        This is where the fun Begins. You can: </p>
+    <ul>
+        <li>Play an attack</li>
+        <li>Pitch Cards to generate resource</li>
+        <li>Use abilities (some are “once per turn”)</li>
+        <li>Defend against your opponent's attacks (during their turn)</li>
+    </ul> 
+        <p>Each card has a pitch value (top left: 1, 2, or 3), which is how many resources it gives when you “pitch” it (discard it to your resource pool). Resources pay for card costs.<br>
+        <strong>End Phase: </strong></p>
+        <ul>
+            <li>Arsenal a card (put 1 card face-down in a special slot for future use)<br></li>
+            <li>Draw back up to hand size</li>
+        </ul>
+
+
       
         <img src="WTR188.webp" usemap="#cardmap">
 
         <map name="cardmap">
             <area href="" coords="66,65,36" shape="circle" onclick="myFunction()">
-            <area href="main.html" coords="479,65,34" shape="circle" onclick="myFunction()">
-            <area href="main.html" coords="77,704,43" shape="circle" onclick="myFunction()">
-            <area href="main.html" coords="471,702,46" shape="circle"onclick="myFunction()">
+            <area href="" coords="479,65,34" shape="circle" onclick="myFunction()">
+            <area href="" coords="77,704,43" shape="circle" onclick="myFunction()">
+            <area href="" coords="471,702,46" shape="circle"onclick="myFunction()">
         </map>
             <script>
                 function myFunction(){
